@@ -1,7 +1,15 @@
-matris = [[21,34,49],
-          [34,45,90],
-          [11,23,38],
-          [23,45,10]]
+m = int(input("Satır sayısı giriniz"))
+n = int(input("Sütun sayısı giriniz"))
+matris = []
+print("Problem değerlerini giriniz")
+for i in range(m):
+    a = []
+    for j in range(n):
+        a.append(int(input()))
+    matris.append(a)
+
+#alfa=float(input("alfa değeri giriniz"))
+
 
 def maximax(x):#iyimserlik >>>her satırın en büyüğünün en büyüğü
     en_buyukler = []
@@ -51,7 +59,7 @@ def laplace(x): #eşolasılık >>>her satırın ortalamasının en büyüğü
     for i in x:
         toplam=0
         for j in i:
-            s = j /3
+            s = j /n
             toplam+=s
             ortalama.append(toplam)
         k =ortalama[0]
