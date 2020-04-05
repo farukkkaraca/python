@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="veritabani" uuid="acb1f028-aca3-4a34-a15d-3aca8bb75b02">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\karaca\PycharmProjects\project-03\veritabani.db</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="a" uuid="10f75c91-6c49-4245-9fd4-ac839566573f">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\karaca\PycharmProjects\project-03\a.db</jdbc-url>
+    </data-source>
+  </component>
+</project>
